@@ -7,6 +7,8 @@ void main() {
 }
 
 class IMCCalculator extends StatefulWidget {
+  const IMCCalculator({super.key});
+
   @override
   _IMCCalculatorState createState() => _IMCCalculatorState();
 }
